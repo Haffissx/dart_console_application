@@ -4,6 +4,7 @@ import 'dart:convert';
 import 'package:collection/collection.dart';
 
 void verkefni3hluti1(){
+  
   var telja = 1;
   int summa = 0;
     for (telja = 1; telja <= 10; telja++) {
@@ -13,6 +14,7 @@ void verkefni3hluti1(){
     print('Adding all these numbers together equals = $summa');
 }
 void verkefni3hluti2(){
+
   print('Skrifaðu tölu og ég sýni þér margföldunartöfluna af tölunni');
   var margfaldamed = int.parse(stdin.readLineSync());
   int tafla = 1;
@@ -45,6 +47,7 @@ void verkefni3hluti3(){
 }
 
 void verkefni3hluti4(){
+
   print("Skrifaðu tölu og ég segi þér hvað þetta eru margir stafir");
   var num = int.parse(stdin.readLineSync());
   int digits = 0;
@@ -53,7 +56,4 @@ void verkefni3hluti4(){
     num = num ~/ 10;
   }
   print(digits);
-
-
-
 }

@@ -4,7 +4,7 @@ import 'dart:convert';
 import 'package:collection/collection.dart';
 
 void verkefni3hluti1(){
-  
+
   var telja = 1;
   int summa = 0;
     for (telja = 1; telja <= 10; telja++) {
@@ -13,6 +13,7 @@ void verkefni3hluti1(){
     }
     print('Adding all these numbers together equals = $summa');
 }
+
 void verkefni3hluti2(){
 
   print('Skrifaðu tölu og ég sýni þér margföldunartöfluna af tölunni');

@@ -45,6 +45,7 @@ void verkefni3hluti3(){
   print("Summa þessara talna er $sum");
   var result = list.map((e) => e).average;
   print("Meðaltal þessara talna er $result");
+  
 }
 
 void verkefni3hluti4(){

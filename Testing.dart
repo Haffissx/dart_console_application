@@ -9,7 +9,7 @@ void main(List<String> arguments){
   //factorial();
   //Pizza();
   //verkefni3hluti4();
-  timi6();
+  Pizza();
 }
 
 void timi6(){

@@ -4,12 +4,19 @@ import 'dart:convert';
 import 'package:collection/collection.dart';
 
 void verkefni3hluti1(){
-
   var telja = 1;
   int summa = 0;
     for (telja = 1; telja <= 10; telja++) {
       print (telja);
       summa = telja + summa;
+
+  
+  var count = 1;
+  int sum = 0;
+    for (count = 1; count <= 10; count++) {
+      print (count);
+      sum = count + sum;
+
     }
     print('Adding all these numbers together equals = $summa');
 }
@@ -51,7 +58,7 @@ void verkefni3hluti3(){
 void verkefni3hluti4(){
 
   print("Skrifaðu tölu og ég segi þér hvað þetta eru margir stafir");
-  var num = int.parse(stdin.readLineSync());
+  int num = int.parse(stdin.readLineSync());
   int digits = 0;
   while(num > 0){
     digits ++;
